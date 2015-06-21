@@ -1,0 +1,66 @@
+{
+  "name": "glo-texture",
+  "version": "1.0.0",
+  "description": "a WebGL texture interface",
+  "main": "./2d.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {
+    "an-array": "^1.0.0",
+    "array-pack-2d": "^0.1.1",
+    "defined": "^1.0.0",
+    "dprop": "^1.0.0",
+    "dtype": "^2.0.0",
+    "gl-to-dtype": "^1.1.0",
+    "inherit-class": "^1.0.1",
+    "is-dom-image": "^1.0.0",
+    "is-power-of-two": "^1.0.0",
+    "no-op": "^1.0.3",
+    "object-assign": "^3.0.0"
+  },
+  "devDependencies": {
+    "baboon-image-uri": "^1.0.1",
+    "browserify": "^10.2.4",
+    "get-canvas-context": "^1.0.1",
+    "gl-texture2d-pixels": "^1.0.2",
+    "img": "^1.0.0",
+    "smokestack": "^3.3.0",
+    "tape": "^4.0.0",
+    "webgl-context": "^2.2.0"
+  },
+  "scripts": {
+    "osx-chrome": "/Applications/Google\\ Chrome\\ Canary.app/Contents/MacOS/Google\\ Chrome\\ Canary http://localhost:9966/ --enable-unsafe-es3-apis",
+    "test": "browserify test/test-*.js | smokestack --timeout=1500"
+  },
+  "keywords": [
+    "webgl",
+    "texture",
+    "2d",
+    "array",
+    "2d_array",
+    "gl",
+    "glsl",
+    "tex",
+    "image",
+    "pixel",
+    "pixels",
+    "pixmap",
+    "3d",
+    "cube",
+    "map",
+    "cubemap",
+    "cubes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mattdesl/glo-texture.git"
+  },
+  "homepage": "https://github.com/mattdesl/glo-texture",
+  "bugs": {
+    "url": "https://github.com/mattdesl/glo-texture/issues"
+  }
+}
