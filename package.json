@@ -1,6 +1,6 @@
 {
   "name": "glo-texture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a WebGL texture interface",
   "main": "./2d.js",
   "license": "MIT",
