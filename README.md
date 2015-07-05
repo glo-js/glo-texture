@@ -4,7 +4,7 @@
 
 A generic WebGL texture interface for 2D, 3D, Cube and 2DArray data.
 
-**Experimental and subject to change.**
+**Experimental and subject to change; do not rely on versions to be semantically updated.**
 
 ```js
 var createTexture = require('glo-texture/2d')
